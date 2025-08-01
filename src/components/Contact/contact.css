@@ -1,0 +1,40 @@
+.contact-section {
+     background-color: white;
+     border-radius: 24px;
+}
+.main-container{
+    padding: 12px;
+    background-color: #23a50317;
+        
+}
+.text-desc{
+    font-size: 13px;
+    color: #94939380;
+    margin-top: 12px;
+    max-width: 90%;
+    margin-bottom: 22px;
+}
+
+.contact-img {
+    max-height: 470px;
+    object-fit: cover;
+}
+.text-color{
+    color: #60C910;
+   
+}
+.btn-bg-color{
+    background-color: #398809;
+    color: white;
+    margin-top: 33px;
+}
+.btn-bg-color:hover {
+    background-color: #2a6903;
+    color: white;
+
+}
+.icon-br{
+    background-color: #e7ffd8fa;
+    padding: 5px;
+    border-radius: 50%;
+}

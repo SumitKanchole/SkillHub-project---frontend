@@ -1,0 +1,62 @@
+.about-wrapper {
+    color: #009116;
+    background-color: #f9fdf8;
+    /* light background for contrast */
+}
+
+/* Headings */
+.about-heading {
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #009116;
+}
+
+/* Paragraph Text */
+.about-text {
+    font-size: 1rem;
+    line-height: 2.0;
+    max-width: 480px;
+    padding: 22px;
+    margin-bottom: 1.5rem;
+}
+
+/* Founder section (optional tweaks) */
+.founder-section {
+    background-color: #e9f8e7;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.img-about1{
+    max-width: 576px;
+    border-radius: 46px;
+    margin-top: 53px;
+    padding: 33px;
+}
+
+.img-about2{
+    max-width: 576px;
+    border-radius: 46px;
+    margin-top: 143px;
+    padding: 33px;
+}
+
+.about-heading {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+}
+
+.about-text {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.img-about1,
+.img-about2 {
+    border-radius: 46px;
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}

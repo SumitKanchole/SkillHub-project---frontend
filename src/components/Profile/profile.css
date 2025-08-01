@@ -1,0 +1,27 @@
+.profile-container {
+    /* background-color: #f1fff2; */
+    justify-items: center;
+    min-height: 100vh;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 53px;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #28a745;
+}
+
+@media (max-width: 768px) {
+    .profile-card .form-control {
+        font-size: 14px;
+    }
+}
