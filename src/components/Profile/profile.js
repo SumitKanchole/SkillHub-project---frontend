@@ -5,7 +5,7 @@ import Header from '../Header/header';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import EndPoint from '../../Apis/EndPoint';
-import { getCurrentUser } from '../Auth/Auth';
+// import { getCurrentUser } from '../Auth/Auth';
 
 function ProfilePage() {
   const [editMode, setEditMode] = useState(false);
@@ -143,7 +143,7 @@ const handleSubmit = async (event) => {
             {editMode && (
               <div className="mt-3 mb-3">
                 <input
-                defaultValue={user.profile} onChange={()=>handleImageChange}
+                defaultValue={user.profile} onChange={handleImageChange}
                   type="file"
                   accept="image/*"
                 //   value={user.profile}
